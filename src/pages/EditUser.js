@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { updateTodo } from "../redux/actions";
 import { useEffect, useState } from "react";
 import React from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, Link } from "react-router-dom";
 
 import { DatePicker, Space } from "antd";
 import { toast } from "react-toastify";
@@ -95,6 +95,9 @@ function EditUser() {
         height: "90vh",
       }}>
       <div style={{ width: 500, margin: "0 auto" }}>
+        <Link to={"/"}>
+          <Button type="primary">Back</Button>
+        </Link>
         <h2 style={{ textAlign: "center", marginBottom: 30 }}>Edit task</h2>
         <Row style={{ height: "calc(100% - 40px)" }}>
           <Col span={24}>
