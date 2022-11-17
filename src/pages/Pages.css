@@ -1,0 +1,11 @@
+.content {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px 4px #bfbfbf;
+    border-radius: 5;
+    height: 90vh;
+}

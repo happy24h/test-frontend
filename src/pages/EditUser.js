@@ -82,18 +82,7 @@ function EditUser() {
   };
   let { title, description } = todoName;
   return (
-    <div
-      style={{
-        width: 600,
-        margin: "0 auto",
-        display: "flex",
-        flexDirection: "column",
-        backgroundColor: "#f5f5f5",
-        padding: 20,
-        boxShadow: "0 0 10px 4px #bfbfbf",
-        borderRadius: 5,
-        height: "90vh",
-      }}>
+    <div className="content">
       <div style={{ width: 500, margin: "0 auto" }}>
         <Link to={"/"}>
           <Button type="primary">Back</Button>
